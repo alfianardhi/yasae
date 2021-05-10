@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,700;1,500&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media only screen and (max-width: 768px) {
+  .hero .hero-caption,
+  .hero .hero-image {
+    height: 350px;
+  }
+}
+
+.box-info-content:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  height: 3px;
+  background-color: #59b828;
+  left: 5px;
+  width: 98%;
+  margin-left: 0px;
+  opacity: 1;
+}
