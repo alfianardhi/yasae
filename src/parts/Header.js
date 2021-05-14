@@ -47,7 +47,7 @@ export default function Header() {
           <div className='w-auto'>
             <ul className='flex item-center'>
               <li className='ml-6 block md:hidden'>
-                <button id='toggler-menu' className='relative flex item-center z-50 justify-center w-8 h-8 text-black md:text-white focus:outline-none'>
+                <button id='toggler-menu' className='relative flex item-center z-50 justify-center pt-1 w-8 h-8 text-black md:text-white focus:outline-none'>
                   <svg className='fill-current' width='18' height='17' viewBox='0 0 18 17' fill='none' xmlns='http://www.w3.org/2000/svg'>
                     <path d='M15.9773 0.461304H1.04219C0.466585 0.461304 0 0.790267 0 1.19609C0 1.60192 0.466668 1.93088 1.04219 1.93088H15.9773C16.5529 1.93088 17.0195 1.60192 17.0195 1.19609C17.0195 0.790208 16.5529 0.461304 15.9773 0.461304Z' />
                     <path d='M15.9773 7.68802H1.04219C0.466585 7.68802 0 8.01698 0 8.42281C0 8.82864 0.466668 9.1576 1.04219 9.1576H15.9773C16.5529 9.1576 17.0195 8.82864 17.0195 8.42281C17.0195 8.01692 16.5529 7.68802 15.9773 7.68802Z' />
