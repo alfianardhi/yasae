@@ -21,3 +21,18 @@
   margin-left: 0px;
   opacity: 1;
 }
+
+h6.product-title {
+  color: #363636;
+}
+
+p.quantity {
+  color: #4b566b;
+  @apply text-sm;
+  @apply mt-1;
+}
+
+del {
+  color: #d7d7d7;
+  @apply ml-1;
+}
