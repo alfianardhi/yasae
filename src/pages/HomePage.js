@@ -5,6 +5,7 @@ import Information from 'parts/HomePage/InformationBox'
 import Products from 'parts/HomePage/Products'
 import Advertise from 'parts/HomePage/Advertise'
 import Footer from 'parts/Footer'
+import Sitemap from 'parts/Sitemap'
 
 export default function HomePage(props) {
   return (
@@ -14,6 +15,7 @@ export default function HomePage(props) {
       <Information></Information>
       <Products></Products>
       <Advertise></Advertise>
+      <Sitemap></Sitemap>
       <Footer></Footer>
     </>
   )

@@ -2,8 +2,8 @@ import React from 'react'
 
 export default function Footer() {
   return (
-    <div className="py-4 bg-white">
-    <div className="container mx-auto">hallo footer</div>
-    </div>
+    <footer class='bg-white py-8'>
+      <p class='text-center copyright'>Copyright © {new Date().getFullYear()} Yasae. All Rights Reserved.</p>
+    </footer>
   )
 }

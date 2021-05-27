@@ -21,7 +21,7 @@ module.exports = {
 
       black: colors.black,
       white: colors.white,
-      gray: { ...colors.coolGray, 400:'#cccccc'},
+      gray: { ...colors.coolGray, 200: '#e1e1e1', 400: '#cccccc' },
       red: colors.red,
       yellow: colors.amber,
       green: { ...colors.emerald, 400: '#59b828', 500: '#438e1c' },
@@ -30,7 +30,7 @@ module.exports = {
       purple: colors.violet,
       pink: colors.pink,
       rose: { ...colors.rose, 500: '#f9f9f9' },
-      orange: { ...colors.orange, 400:'#f68501'}
+      orange: { ...colors.orange, 400: '#f68501' }
     },
     spacing: {
       px: '1px',

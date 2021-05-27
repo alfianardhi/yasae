@@ -36,3 +36,24 @@ del {
   color: #d7d7d7;
   @apply ml-1;
 }
+
+p.side-menu,
+p.copyright {
+  color: #4b566b;
+  @apply text-sm;
+  @apply mt-1;
+}
+
+h5.side-menu-title {
+  color: #222533;
+  @apply text-lg;
+  @apply font-medium;
+  @apply mt-1;
+  @apply mb-6;
+}
+
+ul.side-menu li {
+  color: #4b566b;
+  @apply text-sm;
+  @apply leading-8;
+}
