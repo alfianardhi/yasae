@@ -1,6 +1,6 @@
 import React from 'react'
+import Button from 'components/Button'
 import { PropTypes as T } from 'prop-types'
-
 export default function Card(props) {
   const { title, description, image, discount, unit, price, actualPrice, action, actionReverse, disabled } = props
 
@@ -20,15 +20,17 @@ export default function Card(props) {
           </div>
         </div>
         <div className='product-button mt-4 w-full'>
-          <button className='w-full bg-green-400 py-2 px-5 text-white capitalize rounded hover:bg-green-500 flex-none transition duration-200'>Buy Now</button>
+          <Button type='button' className='w-full bg-green-400 py-2 px-5 text-white capitalize rounded hover:bg-green-500 flex-none transition duration-200'>
+            Buy Now
+          </Button>
           <div className='button-number hidden w-full container flex justify-center'>
-            <button className='bg-green-400 h-10 w-10 flex items-center justify-center text-white capitalize rounded-full hover:bg-green-500 flex-none transition duration-200'>
+            <Button type='button' className='bg-green-400 h-10 w-10 flex items-center justify-center text-white capitalize rounded-full hover:bg-green-500 flex-none transition duration-200'>
               <span>-</span>
-            </button>
+            </Button>
             <div className='number-button mx-3 flex item-center justify-center mt-2'>0</div>
-            <button className='bg-green-400 h-10 w-10 flex items-center justify-center text-white capitalize rounded-full hover:bg-green-500 flex-none transition duration-200'>
+            <Button type='button' className='bg-green-400 h-10 w-10 flex items-center justify-center text-white capitalize rounded-full hover:bg-green-500 flex-none transition duration-200'>
               <span>+</span>
-            </button>
+            </Button>
           </div>
         </div>
       </div>
