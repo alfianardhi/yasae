@@ -29,7 +29,7 @@ module.exports = {
       indigo: colors.indigo,
       purple: colors.violet,
       pink: colors.pink,
-      rose: { ...colors.rose, 500: '#f9f9f9' },
+      rose: { ...colors.rose, 500: '#f9f9f9', 400: '#f6f6f6' },
       orange: { ...colors.orange, 400: '#f68501' }
     },
     spacing: {
