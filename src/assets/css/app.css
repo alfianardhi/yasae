@@ -23,6 +23,10 @@
     opacity: 1;
   }
 
+  h1, h2, h3, h4, h5, h6 {
+    color:#222d39;
+  }
+
   h6.product-title {
     color: #363636;
   }
@@ -78,5 +82,10 @@
   ul.breadcrumb li:not(:last-child) a {
     @apply text-xs font-normal hover:text-green-400;
     color: #bebebe;
+  }
+
+  /*Shipping Details*/
+  label.shipping-details {
+    color: #4b566b;
   }
 }
